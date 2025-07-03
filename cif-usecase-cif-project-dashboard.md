@@ -47,6 +47,7 @@ The CIF Dashboard brings together multiple tools, new and well-established into 
 
 Traditional tools for navigating in the Arctic: 
 
+**[Note: Should be numbered list, with a 3-item sub-list under item 2.]**
 1. Satellite-based radar images (SAR images)
 2. Human-made ice charts:
     1. Concentration of sea ice (indicating the fraction of ocean surface covered by ice), 

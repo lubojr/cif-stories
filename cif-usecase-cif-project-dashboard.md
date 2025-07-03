@@ -1,5 +1,5 @@
-# Navigating Sea Ice Data for Safer Arctic Navigation  <!--{ as="video" data-fallback-src="" mode="hero" src="https://raw.githubusercontent.com/gtif-cerulean/cif-stories/6603cd55fe0db19583f931719cfde77a39c22101/assets/BAS-Weddell-Sea-Clip-21-1749149546711.mp4" }-->
-
+# The CIF Dashboard for better navigation: sea ice data and Arctic waters  <!--{ as="video" data-fallback-src="https://raw.githubusercontent.com/BlackCA/cif-stories/BlackCA/cif-usecases-20250613/assets/BlackCA/BAS-Weddell-Sea-Clip-21-1751546090329.mp4" mode="hero" src="https://raw.githubusercontent.com/gtif-cerulean/cif-stories/d53dd96375849926cc803c12c0771e248cb0f036/assets/BAS-Weddell-Sea-Clip-21-1751546090329.mp4" }-->
+####  <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
 
 #  
@@ -11,53 +11,58 @@
   <tr>
     <td style="text-align: left; padding-right: 20px;">
       <img src="https://cif.polarview.org/wp-content/uploads/bb-plugin/cache/Shipping-Icon-circle-d3dfaffc3b3ce792813de5d7fdd64fdf-hwxq58bkvn93.png" 
-     style="height: 140px !important; width: 200px !important;">
+     style="height: 50px !important; width: 200px !important;">
     </td>
     <td style="vertical-align: top;">
 			<h4>CIF Use Case</h4> Enhancing Arctic shipping decisions using multi-layered Earth observation data<br><br>
       <h4>Sector/Domain</h4> Arctic Shipping<br><br>
       <h4>Primary Stakeholders</h4> Commercial shipping operators, scientific missions, tourism vessels, northern logistics planners, marine analysts<br><br>
+			<h4>Description</h4> The Cerulean Information Factory (CIF) Dashboard provides four key layers of sea ice information into a single decision-support cloud-based platform. This layered approach enables users to move between high-level assessments and detailed data, depending on their needs and level of expertise.<br><br>
     </td>
   </tr>
 </table>
 
+## Context and Problem <!--{ as="img" mode="tour" }-->
 
-## Context and Problem
+### <!--{ src="https://cif.polarview.org/wp-content/uploads/2024/05/North-Atlantic-Map.png" }-->
+#### Context and Challenge 
 Ships voyaging through the North Atlantic and Arctic Oceans are required under the *International Maritime Organization’s* **Polar Code** to consult timely and historical ice information to plan the safest possible route.
 
+### <!--{ src="https://cif.polarview.org/wp-content/uploads/2024/05/North-Atlantic-Map.png" }-->
+##### Traditional methods
 Ship operators rely on **ice charts** manually produced by a handful of nations with ice services. The resultant charts are authoritative, but are limited by being time-consuming to create, often low in resolution – ice charts generalize conditions over large areas, and can miss critical navigational features like polynyas, narrow cracks in the ice that offer passage – and while typically updated daily, sometimes that frequency drops to weekly. 
 
 Ship operators often refer to the raw satellite radar images, called "synthetic aperture radar" or **SAR images**, which are the basis of ice charts, for more immediate and detailed insight, a strategy requiring long experience reading such hard-to-interpret images (for example, rough seas and ice may appear similar).
 
-**Navigating safely in the Arctic is high-stakes**: a wrong judgment can lead to route delays, excessive fuel use, damage to the vessel, or in severe cases, becoming trapped in ice. In response to these challenges, the CIF Dashboard integrates SAR images and traditional ice charts with new tools to support ship operators to make confident decisions. 
+### <!--{ src="https://cif.polarview.org/wp-content/uploads/bb-plugin/cache/Greenland-Glacier-1024x603-landscape-ed3be4eb55de0f900f71aa38ec37783f-g9bzt50arfkx.png" }-->
+#### Navigating safely in the Arctic is high-stakes
+A wrong judgment can lead to route delays, excessive fuel use, damage to the vessel, or in severe cases, becoming trapped in ice. In response to these challenges, the CIF Dashboard integrates SAR images and traditional ice charts with new tools to support ship operators to make confident decisions. 
 
-# How the CIF Dashboard supports Arctic Shipping <!--{ as="img" data-fallback-src="https://raw.githubusercontent.com/BlackCA/cif-stories/BlackCA/cif-usecases-20250605/assets/BlackCA/Nordica-Icebreaker-FIMR-1749477300536.JPG" mode="hero" src="https://raw.githubusercontent.com/gtif-cerulean/cif-stories/b46382492aeec855eaffefd87a1b8a374e128f52/assets/Nordica-Icebreaker-FIMR-1749477300536.JPG" }-->
+# Four-Layer Sea Ice Intelligence <!--{ as="img" data-fallback-src="https://raw.githubusercontent.com/BlackCA/cif-stories/BlackCA/cif-usecases-20250613/assets/BlackCA/Nordica-Icebreaker-FIMR-1751547468888.JPG" mode="hero" src="https://raw.githubusercontent.com/gtif-cerulean/cif-stories/2d940e2f891a3088e02537609be76ffc9bb1d9d0/assets/Nordica-Icebreaker-FIMR-1751547468888.JPG" }-->
 ### Nordica Icebreaker (FIMR) traversing ice <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
-## 
+##
 
-The CIF Dashboard brings together the traditional tools for navigating in the Arctic: 
+The CIF Dashboard brings together multiple tools, new and well-established into one cloud-based platform. 
+
+Traditional tools for navigating in the Arctic: 
+
 1. Satellite-based radar images (SAR images)
 2. Human-made ice charts:
-    1. concentration of sea ice (indicating the fraction of ocean surface covered by ice), 
-    2. stage of sea ice development (ice age ranging from new to multi-year old ice), and 
-    3. floe size (size of individual ice floes, e.g., pancake, brash, medium floe)
+    1. Concentration of sea ice (indicating the fraction of ocean surface covered by ice), 
+    2. Stage of sea ice development (ice age ranging from new to multi-year old ice), and 
+    3. Floe size (size of individual ice floes, e.g., pancake, brash, medium floe)
 6.  The POLARIS risk score, which combines ice chart data with a ship’s ice class rating to generate navigational risk scores across a region of interest.
 
-In addition to these, new tools for ship **route optimization** in ice, developed by the National Research Council of Canada, and **AI-derived ice charts**, doing the work of analyzing satellite radar images, developed by the Danish Meteorological Institute, as well as other tools such as **structural icing** (the accumulation of ice on marine infrastructure) and **ice dynamics and deformation** (analyzing how the ice is moving, including the creation of pressurized ice), developed by C-CORE, are all available within the [CIF Dashboard](https://cif.eox.at/).   
+New tools include **ship route optimization** in ice, developed by the National Research Council of Canada, and **AI-derived ice charts**, doing the work of analyzing satellite radar images, developed by the Danish Meteorological Institute, as well as other tools such as **structural icing** (the accumulation of ice on marine infrastructure) and **ice dynamics and deformation** (analyzing how the ice is moving, including the creation of pressurized ice), developed by C-CORE, are all available within the [CIF Dashboard](https://cif.eox.at/).   
 
-In this use case, we present *four key data layers for interpreting and navigating ice and iceberg conditions*. 
+In this use case, we present *four key data layers for interpreting and navigating sea ice and icebergs*. 
 
-## Four-Layer Sea Ice Intelligence
-
-The **Cerulean Information Factory (CIF) Dashboard** provides four key layers of sea ice information into a single decision-support cloud-based platform. This layered approach enables users to move between high-level assessments and detailed data, depending on their needs and level of expertise.
 
 ## Data layer 1: Raw SAR imagery
 Real-time radar images from satellites that offer weather-independent views of current sea ice conditions. These are valuable for visual confirmation but can be difficult to interpret on their own.
 
-## map layer 1 <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"sea_floor_depth;:;2017-01-01T00:00:00Z;:;wmts capabilities;:;EPSG:3857","title":"Sea floor depth below geoid"},"source":{"type":"WMTS","url":"https://wmts.marine.copernicus.eu/teroWmts","layer":"GLOBAL_ANALYSISFORECAST_PHY_001_024/cmems_mod_glo_phy_anfc_0.083deg_static_202211--ext--bathy/deptho","style":"default","matrixSet":"EPSG:3857","projection":"EPSG:3857","tileGrid":{"tileSize":[128,128]},"dimensions":{}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3857","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}},{"type":"Tile","properties":{"id":"cloudless-2022;:;EPSG:3857","title":"EOxCloudless 2022"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}},{"type":"Tile","properties":{"id":"eox-osm;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}}]}]' zoom="4" center=[-35.64662933349613,43.27388039326814] projection="" }-->
-
-## BAS-Polarstern-Shackleton <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/BlackCA/cif-stories/BlackCA/cif-usecases-20250605/assets/BlackCA/BAS-Polarstern-Shackleton-1749477404508.jpg" src="https://raw.githubusercontent.com/gtif-cerulean/cif-stories/9f371377769e1651009fbd6e2902929ad7d09c27/assets/BAS-Polarstern-Shackleton-1749477404508.jpg" style="width: 100%; height: 600px;"}-->
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Sentinel1-EW-HH;:;2025-06-11T00:00:00Z;:;Sentinel1-EW-HH;:;EPSG:3857","title":"Sentinel1-EW-HH"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/b8c37569-fa44-4f8d-9cfc-0b535ba4e4c3","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["EW_HH_DB"],"TILED":true,"TIME":"2025-06-11T00:00:00Z/2025-06-11T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3857","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}},{"type":"Tile","properties":{"id":"cloudless-2022;:;EPSG:3857","title":"EOxCloudless 2022"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}},{"type":"Tile","properties":{"id":"eox-osm;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}}]}]' zoom="4.707856382395112" center=[-18.010532630985832,73.55637212306746] projection="" }-->
 
 ## Data layer 2: Human-made ice charts
 Expert-drawn maps from national ice services that classify ice by type and concentration. These charts remain a legal reference point under the Polar Code, but are labor-intensive and often lack spatial detail.
@@ -98,12 +103,6 @@ Visit the CIF’s Beta Dashboard at https://cif.eox.at/ where you can find the a
 
 The CIF Dashboard also provides tools for Aquaculture and Off-shore Renewable Energy in the North Atlantic Ocean.  
 
-# CA's sandbox 
-
-**[Question: I'm not seeing the POLARIS data layer that showed in the map when I copied the map as a map tour section. It did zoom to the correct area. :)]**
-**[Question: can we show the legend/scale for the data layers on the map?]**
-
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Sentinel1-EW-HH;:;2025-06-11T00:00:00Z;:;Sentinel1-EW-HH;:;EPSG:3857","title":"Sentinel1-EW-HH"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/b8c37569-fa44-4f8d-9cfc-0b535ba4e4c3","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["EW_HH_DB"],"TILED":true,"TIME":"2025-06-11T00:00:00Z/2025-06-11T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3857","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}},{"type":"Tile","properties":{"id":"cloudless-2022;:;EPSG:3857","title":"EOxCloudless 2022"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2022: <a href=\"//s2maps.eu\" target=\"_blank\">Sentinel-2 cloudless - s2maps.eu</a> by <a href=\"//eox.at\" target=\"_blank\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2022) }"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}},{"type":"Tile","properties":{"id":"eox-osm;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"}}]}]' zoom="4.707856382395112" center=[-18.010532630985832,73.55637212306746] projection="" }-->
 
 
 
@@ -112,17 +111,5 @@ The CIF Dashboard also provides tools for Aquaculture and Off-shore Renewable En
 
 
 
-## Image Tour section <!--{ as="img" mode="tour" }-->
 
-### <!--{ src="https://picsum.photos/800/600" }-->
-#### This is an image tour.
-It allows you to have different sources for each tour "step".
-
-### <!--{ src="https://picsum.photos/900/700" }-->
-#### Second tour step.
-Each tour step is described as an *h3* (*###*) heading.
-
-### <!--{ src="https://picsum.photos/900/800" }-->
-#### Third tour step.
-![](https://placehold.co/200x100)
         

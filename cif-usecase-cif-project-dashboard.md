@@ -117,10 +117,12 @@ CIF’s Arctic shipping tools are designed for a range of users, including:
 
 ## Value and Impact
 By integrating multiple types of sea ice information into one tool, the CIF Dashboard supports:
-* Improved safety, through clearer visibility into route-specific ice risks
+* Improved safety, through clearer information about route-specific ice risks
 * Better route planning, reducing delays, fuel use, and emissions
 * Compliance with the Polar Code, by providing easy access to required and recommended data
 * Faster, more informed decision-making, especially for time-sensitive or high-cost voyages
+
+**[Note: Should be bulleted list (numbered would be fine too). The list shows as indented, but no bullets.]**
 
 The CIF Dashboard offers a practical, scalable solution that increases Arctic data availability and accessibility, helping make it more usable by those navigating some of the world’s most challenging waters.
 
